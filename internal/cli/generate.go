@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/config"
-	"github.com/nenorrell/xrai/internal/generator"
-	"github.com/nenorrell/xrai/internal/introspector/postgres"
+	"github.com/nenorrell/X-Rai/internal/config"
+	"github.com/nenorrell/X-Rai/internal/generator"
+	"github.com/nenorrell/X-Rai/internal/introspector/postgres"
 	"github.com/spf13/cobra"
 )
 

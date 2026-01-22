@@ -1,4 +1,4 @@
-module github.com/nenorrell/xrai
+module github.com/nenorrell/X-Rai
 
 go 1.24.7
 

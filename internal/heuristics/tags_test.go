@@ -3,7 +3,7 @@ package heuristics
 import (
 	"testing"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func TestIsLookupTable_NamePatterns(t *testing.T) {

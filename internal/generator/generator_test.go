@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func TestFormatSchemaList(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (i *Introspector) introspectRoutines(ctx context.Context, schemas []string, redactDef bool) ([]*schema.Routine, error) {

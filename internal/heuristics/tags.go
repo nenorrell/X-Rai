@@ -3,7 +3,7 @@ package heuristics
 import (
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 // applyTableTags assigns heuristic tags to a table based on its structure.

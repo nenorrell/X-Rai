@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/nenorrell/xrai/internal/heuristics"
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/heuristics"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (g *Generator) generateDomains(db *schema.Database) error {

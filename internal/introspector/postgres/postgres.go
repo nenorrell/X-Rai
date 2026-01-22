@@ -6,8 +6,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/nenorrell/xrai/internal/config"
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/config"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 // Introspector implements database introspection for PostgreSQL.

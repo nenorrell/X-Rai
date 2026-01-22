@@ -89,7 +89,7 @@ including their last login timestamp and the total number of orders they’ve pl
 ## Development
 
 ```bash
-git clone https://github.com/nenorrell/xrai.git
+git clone https://github.com/nenorrell/X-Rai.git
 cd xrai
 
 make build

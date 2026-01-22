@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (i *Introspector) introspectIndexes(ctx context.Context, schemaName, tableName string) ([]*schema.Index, error) {

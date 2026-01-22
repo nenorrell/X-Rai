@@ -1,6 +1,6 @@
 package heuristics
 
-import "github.com/nenorrell/xrai/internal/schema"
+import "github.com/nenorrell/X-Rai/internal/schema"
 
 // ApplyAllHeuristics runs all heuristic analyses on the database schema.
 func ApplyAllHeuristics(db *schema.Database) {

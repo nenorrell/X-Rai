@@ -1,6 +1,6 @@
 package main
 
-import "github.com/nenorrell/xrai/internal/cli"
+import "github.com/nenorrell/X-Rai/internal/cli"
 
 func main() {
 	cli.Execute()

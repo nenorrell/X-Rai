@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (i *Introspector) introspectForeignKeys(ctx context.Context, schemaName, tableName string) ([]*schema.ForeignKey, error) {

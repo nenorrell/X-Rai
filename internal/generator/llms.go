@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (g *Generator) generateLLMsTxt(db *schema.Database) error {

@@ -3,7 +3,7 @@ package heuristics
 import (
 	"strings"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 // GroupIntoDomains groups tables into logical domains based on naming patterns

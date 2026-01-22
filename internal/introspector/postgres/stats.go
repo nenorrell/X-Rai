@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (i *Introspector) introspectStats(ctx context.Context, schemaName, tableName string) (*schema.Stats, error) {

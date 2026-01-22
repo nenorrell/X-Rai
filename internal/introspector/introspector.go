@@ -3,8 +3,8 @@ package introspector
 import (
 	"context"
 
-	"github.com/nenorrell/xrai/internal/config"
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/config"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 // Introspector defines the interface for database introspection.

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nenorrell/xrai/internal/config"
-	"github.com/nenorrell/xrai/internal/heuristics"
-	"github.com/nenorrell/xrai/internal/schema"
-	"github.com/nenorrell/xrai/internal/toon"
+	"github.com/nenorrell/X-Rai/internal/config"
+	"github.com/nenorrell/X-Rai/internal/heuristics"
+	"github.com/nenorrell/X-Rai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/toon"
 )
 
 // Generator handles JSON output generation.

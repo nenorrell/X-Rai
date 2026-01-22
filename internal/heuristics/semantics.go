@@ -1,7 +1,7 @@
 package heuristics
 
 import (
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 // determineCardinality estimates the cardinality of a foreign key relationship.

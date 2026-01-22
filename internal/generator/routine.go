@@ -3,7 +3,7 @@ package generator
 import (
 	"path/filepath"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (g *Generator) generateRoutines(db *schema.Database) error {

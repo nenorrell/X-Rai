@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/nenorrell/xrai/internal/schema"
+	"github.com/nenorrell/X-Rai/internal/schema"
 )
 
 func (g *Generator) generateDatabaseIndex(db *schema.Database) error {
