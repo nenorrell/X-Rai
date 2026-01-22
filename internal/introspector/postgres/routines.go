@@ -46,8 +46,8 @@ func (i *Introspector) introspectRoutines(ctx context.Context, schemas []string,
 	for rows.Next() {
 		var (
 			schemaName, routineName, routineType string
-			language, returnType, comment        string
-			definition                           *string
+			language, comment                    string
+			returnType, definition               *string
 			argNames                             []string
 			argTypes                             []string
 			argModes                             []string
@@ -68,7 +68,7 @@ func (i *Introspector) introspectRoutines(ctx context.Context, schemas []string,
 			SchemaName:  schemaName,
 			RoutineType: routineType,
 			Language:    language,
-			ReturnType:  returnType,
+			ReturnType:  derefString(returnType),
 			Comment:     comment,
 		}
 
@@ -129,4 +129,11 @@ func mapArgMode(mode string) string {
 	default:
 		return "IN"
 	}
+}
+
+func derefString(s *string) string {
+	if s == nil {
+		return ""
+	}
+	return *s
 }
