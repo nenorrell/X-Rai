@@ -1,4 +1,3 @@
-````md
 <p align="center">
   <img src="xrai.png" alt="Xrai" width="200">
 </p>
@@ -35,6 +34,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/nenorrell/xrai/master/ru
   --dsn "postgres://user:pass@host.docker.internal:5432/mydb" \
   --output ./schema-output
 ```
+
 ````
 
 ### Docker run
@@ -99,3 +99,4 @@ make run
 make test
 make deploy
 ```
+````
